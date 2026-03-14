@@ -2,85 +2,53 @@
 
 # Emanuel Cejas
 
-### Software Engineer · Buenos Aires 🇦🇷
+**I help solo developers work like a team.**
 
-*My grandfather taught me to take things apart to understand them. Now I build them with AI.*
+*Building AI tools that multiply what one person can ship.*
 
 [![Twitter](https://img.shields.io/badge/@emaacejas97-black?style=flat&logo=x&logoColor=white)](https://x.com/emaacejas97)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/emanuel-cejas)
-[![JARVIS](https://img.shields.io/badge/JARVIS-00d4ff?style=flat&logo=rocket&logoColor=black)](https://jarvis-490206.web.app/es)
+[![JARVIS](https://img.shields.io/badge/JARVIS-open%20source-00d4ff?style=flat)](https://jarvis-490206.web.app/es)
 
 </div>
 
 ---
 
-## About me
+## Hey 👋
 
-Self-taught software engineer. I started writing HTML in 2021 and never stopped. No bootcamp, no university — just curiosity, broken code, and a grandfather who taught me that you can't understand something until you've taken it apart.
+I'm a self-taught software engineer from Buenos Aires. No bootcamp, no university — just curiosity and a grandfather who taught me that **you can't understand something until you've taken it apart.**
 
-In 2025, AI changed everything. Now I build multi-machine AI orchestration systems in Rust and ship SaaS products with Claude Code running across 4 machines simultaneously.
+I started writing HTML in 2021. In 2025, AI changed everything for me. Now I run 4 machines simultaneously with Claude Code agents working in parallel — and I built the tool to make that possible.
 
-- 🔭 Currently building **LocalCenter** (SaaS) and **JARVIS** (AI fleet orchestration)
-- 🤖 Obsessed with **Claude Code** and multi-agent systems
-- 🌱 Always learning — currently deep in **Rust** and **Tauri**
-- 💡 Autodidact — everything I know, I taught myself
-- 📍 Buenos Aires, Argentina
+**What drives me:** the idea that a solo developer with the right tools can ship what used to take a team.
 
 ---
 
-## What I'm building
+## What I'm sharing
 
-### 🤖 JARVIS — Multi-Machine AI Orchestration
-> *Run Claude on all your machines at once. One task. The whole fleet.*
+### 🤖 The "solo dev with a fleet" problem
 
-The problem: 4 machines, 4 SSH sessions, 1 agent at a time. The solution: JARVIS.
+Most AI tooling assumes you have one machine and one context. I have four. Running agents manually across them was chaos — SSH into each one, run a task, wait, switch, repeat.
 
-Open source, self-hosted, no Claude API needed — just your Claude subscription.
-No SSH juggling. No context switching. No overhead.
+I documented everything I learned building a solution: multi-machine orchestration, SSH + Tailscale networking, real-time JSONL streaming, parallel agent coordination. All open source.
 
-```
-4+ machines · Parallel agents · Real-time feed · Self-hosted · MIT License
-```
+→ **[JARVIS — jarvis-490206.web.app/es](https://jarvis-490206.web.app/es)**
 
-**Tech:** `Rust` `Tauri 2` `Svelte 5` `Claude Code` `Tailscale` `SSH` `JSONL Streaming`
+### 🏢 Building real SaaS in the real world
 
-→ [jarvis-490206.web.app/es](https://jarvis-490206.web.app/es)
+LocalCenter is a business management SaaS I'm building for Argentine companies — full stack, end to end, solo. AFIP integration, SQL Server, Angular. The kind of project that teaches you everything a tutorial never will.
 
 ---
 
-### 🏢 LocalCenter — Business Management SaaS
-Full-stack SaaS for Argentine businesses with AFIP integration.
-Built solo, end to end — backend, frontend, database, infrastructure.
+## Current stack
 
-**Tech:** `Node.js` `TypeScript` `Angular 17` `SQL Server` `Tailwind` `Angular Material`
-
----
-
-## Tech stack
-
-### Languages
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
-
-### Frontend
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat&logo=angular&logoColor=white)
-![Svelte](https://img.shields.io/badge/Svelte-FF3E00?style=flat&logo=svelte&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
-
-### Backend & Database
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
-![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat&logo=microsoftsqlserver&logoColor=white)
-
-### Desktop & Infra
-![Tauri](https://img.shields.io/badge/Tauri-24C8DB?style=flat&logo=tauri&logoColor=white)
-![Tailscale](https://img.shields.io/badge/Tailscale-000000?style=flat&logo=tailscale&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
-
-### AI
-![Claude](https://img.shields.io/badge/Claude_Code-D97757?style=flat&logo=anthropic&logoColor=white)
+| Area | Technologies |
+|------|-------------|
+| Backend | `Node.js` `TypeScript` `SQL Server` |
+| Frontend | `Angular 17` `Svelte 5` `Tailwind` |
+| Desktop | `Tauri 2` `Rust` |
+| AI | `Claude Code` `multi-agent orchestration` |
+| Infra | `SSH` `Tailscale` `Linux` `Windows` `macOS` |
 
 ---
 
@@ -88,9 +56,9 @@ Built solo, end to end — backend, frontend, database, infrastructure.
 
 <div align="center">
 
-![Emanuel's GitHub stats](https://github-readme-stats.vercel.app/api?username=emawritz&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=00d4ff&icon_color=00d4ff)
+![Emanuel's GitHub stats](https://github-readme-stats.vercel.app/api?username=emawritz&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=00d4ff&icon_color=00d4ff&include_all_commits=true&count_private=true)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=emawritz&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=00d4ff)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=emawritz&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=00d4ff&count_private=true)
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=emawritz&theme=dark&hide_border=true&background=0d1117&ring=00d4ff&fire=00d4ff&currStreakLabel=00d4ff)
 
@@ -98,23 +66,32 @@ Built solo, end to end — backend, frontend, database, infrastructure.
 
 ---
 
-## The journey
+## The journey so far
 
 ```
-2021  →  First HTML/CSS/JS — learning in the dark
-2022  →  First client projects — real deadlines, real pressure
-2023  →  TypeScript, databases, first serious apps
-2024  →  Full stack SaaS development starts
-2025  →  AI changes everything. Claude Code becomes my co-pilot
-2026  →  Rust, JARVIS, 4 machines running in parallel
+2021  →  First HTML/CSS/JS. Learning by breaking things.
+2022  →  First clients. Real deadlines. Real pressure.
+2023  →  TypeScript, databases. First apps people actually used.
+2024  →  Full stack SaaS. Building LocalCenter from scratch.
+2025  →  Claude Code. AI changes how I work. Forever.
+2026  →  Rust. JARVIS. 4 machines. 1 developer. Team output.
 ```
+
+---
+
+## What I believe
+
+- A solo developer with good tools can out-ship a team with bad ones
+- Self-taught isn't a limitation — it's a different kind of education
+- The best way to learn something is to build something people actually use
+- AI doesn't replace developers. It multiplies the ones who know how to use it.
 
 ---
 
 <div align="center">
 
-*"The developers who work in fleets are going to win."*
+*"The developers who learn to work in fleets are going to win."*
 
-**[→ Join the JARVIS waitlist](https://jarvis-490206.web.app/es)**
+**Buenos Aires, Argentina 🇦🇷**
 
 </div>
