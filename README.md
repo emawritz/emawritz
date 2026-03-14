@@ -106,6 +106,16 @@ Everything I learned building this is open source.
 
 ---
 
+## How I think
+
+I don't start with the stack. I start with the problem.
+
+The stack is a consequence — it adapts to what needs to be built and how fast it needs to exist. With AI, being hyper-technical matters less than knowing what to create. I think of myself more as an artist than an engineer: someone who can look at a need, imagine the solution, and make it real — regardless of the tools required.
+
+No barriers. No "I don't know that language." Just: *what needs to exist, and how do I make it exist?*
+
+---
+
 ## What I believe
 
 - A solo developer with good tools can out-ship a team with bad ones
