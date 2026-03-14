@@ -16,31 +16,58 @@
 
 ## Hey 👋
 
-I'm a self-taught software engineer from Buenos Aires. No bootcamp, no university — just curiosity and a grandfather who taught me that **you can't understand something until you've taken it apart.**
+I'm a self-taught software engineer from Buenos Aires.
 
-I started writing HTML in 2021. In 2025, AI changed everything for me. Now I run 4 machines simultaneously with Claude Code agents working in parallel — and I built the tool to make that possible.
+No bootcamp. No university. My grandfather taught me that **you can't understand something until you've taken it apart** — so I took everything apart.
 
-**What drives me:** the idea that a solo developer with the right tools can ship what used to take a team.
+I started with HTML in 2021. First clients in 2022. First real apps in 2023. By 2024 I was building a full SaaS from scratch, alone.
+
+Then AI arrived and changed the game entirely.
 
 ---
 
-## What I'm sharing
+## The problem I couldn't ignore
 
-### 🤖 The "solo dev with a fleet" problem
+Most devs using AI have one machine, one context, one agent at a time.
 
-Most AI tooling assumes you have one machine and one context. I have four. Running agents manually across them was chaos — SSH into each one, run a task, wait, switch, repeat.
+I had four machines sitting there — a Mac Mini M4 Pro, two high-end PCs, a laptop. And I kept thinking: *what if Tony Stark didn't just have one JARVIS instance? What if all of them worked in parallel?*
 
-I documented everything I learned building a solution: multi-machine orchestration, SSH + Tailscale networking, real-time JSONL streaming, parallel agent coordination. All open source.
+That's what I built.
+
+```
+ATLAS (Mac Mini M4 Pro)  ──────── orchestrator
+    ├── NOVA  (i5 + RTX 3060, Windows)   ──  backend agent
+    ├── PIXEL (Ryzen 7 + RTX 3070, Linux) ── frontend agent
+    └── NOMAD (Ryzen 7, mobile)           ──  backup / overflow
+```
+
+Four machines. Two Claude accounts. Real-time coordination via SSH + Tailscale. Parallel agents that actually sync between rounds.
+
+No API costs. No cloud dependency. 100% yours.
 
 → **[JARVIS — jarvis-490206.web.app/es](https://jarvis-490206.web.app/es)**
 
-### 🏢 Building real SaaS in the real world
+---
 
-LocalCenter is a business management SaaS I'm building for Argentine companies — full stack, end to end, solo. AFIP integration, SQL Server, Angular. The kind of project that teaches you everything a tutorial never will.
+## Why I built this for others too
+
+The companies don't want self-taught developers. I know because I've sent the applications.
+
+There are thousands of skilled devs locked out of the market — not because they can't build, but because they don't have the right credentials on paper.
+
+JARVIS is my answer to that. If you can't get hired by a team, become the team. The tools exist. You just need to know how to wire them together.
+
+Everything I learned building this is open source.
 
 ---
 
-## Current stack
+## What else I'm building
+
+**LocalCenter** — A business management SaaS for Argentine companies. AFIP integration, SQL Server, Angular. Full stack, end to end, solo. The kind of project that teaches you what no tutorial ever will.
+
+---
+
+## Stack
 
 | Area | Technologies |
 |------|-------------|
@@ -66,7 +93,7 @@ LocalCenter is a business management SaaS I'm building for Argentine companies �
 
 ---
 
-## The journey so far
+## The journey
 
 ```
 2021  →  First HTML/CSS/JS. Learning by breaking things.
