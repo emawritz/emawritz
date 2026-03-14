@@ -110,7 +110,9 @@ Everything I learned building this is open source.
 
 I don't start with the stack. I start with the problem.
 
-The stack is a consequence — it adapts to what needs to be built and how fast it needs to exist. With AI, being hyper-technical matters less than knowing what to create. I think of myself more as an artist than an engineer: someone who can look at a need, imagine the solution, and make it real — regardless of the tools required.
+The stack is a consequence — it adapts to what needs to be built and how fast it needs to exist. I'm not less technical because of this. I'm technical with direction. There's a difference between knowing every API by heart and knowing exactly what to build and why.
+
+With AI, the ceiling for solo developers got a lot higher. But what actually separates people isn't who knows more syntax — it's who can look at a real need, design the right solution, and make it exist. That's closer to an architect than a coder.
 
 No barriers. No "I don't know that language." Just: *what needs to exist, and how do I make it exist?*
 
